@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>ThorDex</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-bar__logo">
+                <!-- Logo Img -->
+                <img src="./resources/icons/pokeball_logo.png" class="nar-bar__logo__img" alt="">
+            </div>
+            <div class="nav-bar__links">
+                 <div class="nav-bar__links__link">
+                   <p class="nav-bar__links__link__text"><a href="./index.html">Home</a></p>
+                </div>
+                 <div class="nav-bar__links__link">
+                   <p class="nav-bar__links__link__text"><a href="#">Pokedex</a></p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <h2 class="hero__page-title">Gotta Catch 'Em All</h2>
+        <img src="./resources/icons/pokeball.png" alt="" class="hero__img">
+    </div>
+
+    <section class="search">
+        <form class="search__form" action="">
+            <label for="finder" class="search__form__label">Search for a Pokemon</label>
+            <input type="text" id="finder" name="finder" class="search__form__input" placeholder="Enter Pokedex # or name">
+        </form>
+
+    </section>
+    <section class="pokemon-display">
+
+    </section>
+
+    <footer class="footer">
+        <div class="attributes">Icons made by <a href="https://www.flaticon.com/authors/roundicons-freebies" title="Roundicons Freebies">Roundicons Freebies</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
